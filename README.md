@@ -37,6 +37,6 @@ The key goals of this analysis are:
 
 Clone the repo or open the notebook in Google Colab to run the analysis and generate updated CSV files. The code is written in Python using `pandas` and `matplotlib`.
 
-## 📬 Contact
+## Contact
 
 For questions or suggestions, feel free to open an issue or reach out via GitHub!
