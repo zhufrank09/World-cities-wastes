@@ -1,5 +1,9 @@
 # World-Cities-Wastes
-This project explores and analyzes global municipal solid waste (MSW) data, with a focus on comparing waste generation and diversion efforts across cities and countries.
+This repository was created for Prof. Gotzler's English 105 class in the Spring 2025 semester at the University of North Carolina at Chapel Hill.
+
+It contains the raw data set and the subset of data that was created by manipulating the raw data using Python3.
+
+The repository also includes the Python notebook that documents the process for crafting the subset of data from the original data.
 
 ## Data Overview
 
