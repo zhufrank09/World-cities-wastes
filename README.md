@@ -19,7 +19,7 @@ The key goals of this analysis are:
 - Highlight top cities by total MSW generated
 - Export cleaned and focused subsets of the data for reuse
 
-## 🛠Key Steps
+## Key Steps
 
 1. Loaded and cleaned the dataset
 2. Converted relevant columns to numeric
@@ -33,7 +33,7 @@ The key goals of this analysis are:
 - `all_city_waste.csv` – full list of cities and their total MSW generated
 
 
-## 📎 How to Use
+## How to Use
 
 Clone the repo or open the notebook in Google Colab to run the analysis and generate updated CSV files. The code is written in Python using `pandas` and `matplotlib`.
 
