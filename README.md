@@ -1,58 +1,72 @@
 # Global Urban Waste Management
 
 ## About
-This repository was created for **English 105** at the **University of North Carolina at Chapel Hill**.  
-It contains data and analysis related to how municipal solid waste (MSW) is generated, managed, and diverted in cities around the world.
+This repository was created for English 105 at the University of North Carolina at Chapel Hill.  
+It explores global patterns in urban waste management by analyzing city-level municipal solid waste (MSW) statistics.
 
-The purpose of this project is to:
-- Examine waste generation trends across global cities,
-- Evaluate the effectiveness of waste diversion methods like recycling and composting,
-- Raise awareness of urban environmental management challenges.
+The project includes:
+- Raw and cleaned data files
+- A Python notebook for analysis and documentation
+- A visualization created in Excel
 
-## What's in this Repository?
-- `city_level_data_0_0.csv` – Raw dataset of global solid waste statistics.
-- `diversion_rate_subset.csv` – A filtered subset focusing on waste diversion rates by city.
-- `urban_waste_analysis.ipynb` – Python notebook for cleaning, analyzing, and visualizing the data.
-- `README.md` – This documentation file.
+---
 
-## Data Provenance
-The dataset originates from the [World Bank Group](https://datacatalog.worldbank.org/search/dataset/0039596), specifically the *What a Waste* global database.  
-It includes city-level information on:
-- Annual MSW generation (tons/year),
-- Waste composition,
-- Treatment and disposal methods,
-- Environmental impacts.
+## Repository Structure
+📁 data/
+  🔹 city_level_data_0_0 (1).csv – Original raw dataset of global solid waste statistics
+  🔹 all_city_waste.csv – Cleaned and processed dataset
+  🔹 World_cities_wastes.ipynb – Python notebook for cleaning, analyzing, and documenting
 
-The data was downloaded, cleaned, and formatted for analysis. No values were modified beyond standard cleaning (e.g., fixing column names, removing null entries).
+📁 images/
+  🔹 Picture1.png – Excel visualization of waste generation by city
+
+📄 README.md – Project overview and usage instructions
+
+
+---
+
+## Data Source
+The data originates from the **World Bank Group**.  
+It includes metrics on municipal solid waste generation, treatment methods, and environmental indicators at the city level.
+
+✅ **Note:**  
+The dataset was cleaned and restructured for analysis. No original values were changed.
+
+---
 
 ## Why This Data?
-Urban waste management is a critical global issue, impacting public health, climate change, and sustainable development.  
-By analyzing waste statistics city-by-city, we can:
-- Identify major contributors to global waste generation,
-- Recognize leaders in waste diversion practices,
-- Inspire policies that promote recycling, composting, and other sustainable methods.
+Understanding waste generation and diversion practices helps:
+- Environmental policy analysts
+- Urban planners and sustainability researchers
+- Global citizens curious about waste management challenges
 
-**Potential users of this data include:**
-- Environmental policy analysts,
-- Sustainability researchers,
-- Urban planners and city officials,
-- Curious individuals interested in global environmental challenges.
+---
 
 ## Key Findings
-- Countries with the highest total waste output.
-- Cities with the best and worst diversion rates.
-- Top 10 waste-generating cities globally.
-- Observed links between economic development and waste treatment practices.
+- Cities with the highest total MSW generation
+- Best and worst diversion rates globally
+- Regional differences in waste management strategies
 
-## How to Use
-1. Open `urban_waste_analysis.ipynb` in **Google Colab** or **Jupyter Notebook**.
-2. Run through the cleaning and analysis workflow.
-3. View exported datasets (`.csv`) for reuse, further visualization, or reporting.
+---
 
-*Note:* Data subsets were created using the `.to_csv()` method in Python for easier sharing and further analysis.
+## How to Use This Repository
+1. Open the `World_cities_wastes.ipynb` notebook in **Google Colab** or **Jupyter Notebook**.
+2. Review the data cleaning, analysis, and findings.
+3. Check out the Excel visualization below!
+
+---
+
+## Visualization Example
+Here’s a preview of the waste generation chart created from the dataset:
+
+![Waste Generation Chart](images/Picture1.png)
+
+---
 
 ## What's Next?
 This project could be expanded by:
-- Exploring correlations between waste generation, GDP per capita, and population density.
-- Visualizing diversion rates geographically using GIS tools.
-- Studying the impact of policy interventions on diversion success rates.
+- Mapping waste diversion rates geographically
+- Comparing waste production to population density or GDP
+- Exploring trends in recycling, composting, and landfill use worldwide
+
+---
