@@ -1,29 +1,22 @@
 # Global Urban Waste Management
 
 ## About
-This repository was created for English 105 at the University of North Carolina at Chapel Hill.  
-It explores global patterns in urban waste management by analyzing city-level municipal solid waste (MSW) statistics.
+This repository was created for English 105 at the University of North Carolina at Chapel Hill. It contains a dataset of global city-level waste management statistics, a processed subset focused on diversion rates, and the Python notebook used to analyze and visualize the data.
 
-The project includes:
-- Raw and cleaned data files
-- A Python notebook for analysis and documentation
-- A visualization created in Excel
+The purpose of this project is to examine how waste is generated and managed across different countries and cities, and to highlight the effectiveness of diversion methods like recycling and composting.
 
----
+## What's in this repository?
 
-## Repository Structure
-📁 data/
-  🔹 city_level_data_0_0 (1).csv – Original raw dataset of global solid waste statistics
-  🔹 all_city_waste.csv – Cleaned and processed dataset
+```plaintext
+📁 data/  
+  🔹 city_level_data_0_0 (1).csv – Original raw dataset of global solid waste statistics  
+  🔹 all_city_waste.csv – Cleaned and processed dataset  
   🔹 World_cities_wastes.ipynb – Python notebook for cleaning, analyzing, and documenting
 
-📁 images/
+📁 images/  
   🔹 Picture1.png – Excel visualization of waste generation by city
 
 📄 README.md – Project overview and usage instructions
-
-
----
 
 ## Data Source
 The data originates from the **World Bank Group**.  
