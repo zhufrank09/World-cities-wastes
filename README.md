@@ -45,3 +45,8 @@ This project can be expanded by:
 - Exploring waste treatment types by region
 - Comparing diversion rates to population or income levels
 - Mapping diversion performance visually by geography
+
+## Visualizing the Data
+Here is an image showing waste generation by city:
+
+![Waste Generation by City](images/Picture1.png)
