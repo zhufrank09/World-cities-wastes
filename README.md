@@ -1,66 +1,58 @@
 # Global Urban Waste Management
 
----
-
 ## About
+This repository was created for **English 105** at the **University of North Carolina at Chapel Hill**.  
+It contains data and analysis related to how municipal solid waste (MSW) is generated, managed, and diverted in cities around the world.
 
-This repository was created for English 105 at the University of North Carolina at Chapel Hill. It contains a dataset of global city-level waste management statistics, a processed subset focused on diversion rates, and the Python notebook used to analyze and visualize the data.
+The purpose of this project is to:
+- Examine waste generation trends across global cities,
+- Evaluate the effectiveness of waste diversion methods like recycling and composting,
+- Raise awareness of urban environmental management challenges.
 
-The purpose of this project is to examine how waste is generated and managed across different countries and cities, and to highlight the effectiveness of diversion methods like recycling and composting.
+## What's in this Repository?
+- `city_level_data_0_0.csv` – Raw dataset of global solid waste statistics.
+- `diversion_rate_subset.csv` – A filtered subset focusing on waste diversion rates by city.
+- `urban_waste_analysis.ipynb` – Python notebook for cleaning, analyzing, and visualizing the data.
+- `README.md` – This documentation file.
 
----
+## Data Provenance
+The dataset originates from the [World Bank Group](https://datacatalog.worldbank.org/search/dataset/0039596), specifically the *What a Waste* global database.  
+It includes city-level information on:
+- Annual MSW generation (tons/year),
+- Waste composition,
+- Treatment and disposal methods,
+- Environmental impacts.
 
-## What's in this repository?
+The data was downloaded, cleaned, and formatted for analysis. No values were modified beyond standard cleaning (e.g., fixing column names, removing null entries).
 
-- `city_level_data_0_0.csv` – Raw dataset of global solid waste statistics  
-- `diversion_rate_subset.csv` – A filtered subset showing diversion rates by city  
-- `urban_waste_analysis.ipynb` – Python notebook used to clean, analyze, and visualize the data  
-- `README.md` – This file  
+## Why This Data?
+Urban waste management is a critical global issue, impacting public health, climate change, and sustainable development.  
+By analyzing waste statistics city-by-city, we can:
+- Identify major contributors to global waste generation,
+- Recognize leaders in waste diversion practices,
+- Inspire policies that promote recycling, composting, and other sustainable methods.
 
----
-
-## Where is the data from?
-
-The data is sourced from the **World Bank Group**. It includes city-level information on municipal solid waste (MSW), treatment methods, and environmental indicators.  
-The dataset has been cleaned and reformatted for analysis, but no values were altered.
-
----
-
-## Why this data?
-
-This dataset helps visualize which cities and countries are generating the most waste and which are doing the best job at diverting it from landfills.
-
-It could be useful to:
-- Environmental policy analysts  
-- Sustainability researchers  
-- Urban planners and city officials  
-- Curious individuals interested in global waste management trends
-
----
+**Potential users of this data include:**
+- Environmental policy analysts,
+- Sustainability researchers,
+- Urban planners and city officials,
+- Curious individuals interested in global environmental challenges.
 
 ## Key Findings
-
-- Countries with the highest total waste output  
-- Cities with the best and worst diversion rates  
-- Top 10 waste-generating cities globally  
-
-
----
+- Countries with the highest total waste output.
+- Cities with the best and worst diversion rates.
+- Top 10 waste-generating cities globally.
+- Observed links between economic development and waste treatment practices.
 
 ## How to Use
+1. Open `urban_waste_analysis.ipynb` in **Google Colab** or **Jupyter Notebook**.
+2. Run through the cleaning and analysis workflow.
+3. View exported datasets (`.csv`) for reuse, further visualization, or reporting.
 
-Open the `urban_waste_analysis.ipynb` notebook in [Google Colab](https://colab.research.google.com/) or Jupyter Notebook to walk through the full analysis.
+*Note:* Data subsets were created using the `.to_csv()` method in Python for easier sharing and further analysis.
 
-To export subsets of the data, the `.to_csv()` method was used to save new files for reuse and sharing.
-
----
-
-## What's Next
-
-This project can be expanded by:
-
-- Exploring waste treatment types by region  
-- Comparing diversion rates to population or income levels  
-- Mapping diversion performance visually by geography  
-
----
+## What's Next?
+This project could be expanded by:
+- Exploring correlations between waste generation, GDP per capita, and population density.
+- Visualizing diversion rates geographically using GIS tools.
+- Studying the impact of policy interventions on diversion success rates.
