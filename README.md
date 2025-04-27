@@ -7,19 +7,25 @@ The purpose of this project is to examine how waste is generated and managed acr
 
 ## What's in this repository?
 
-### 📁 data/
-- 🔹 `city_level_data_0_0 (1).csv` – Original raw dataset of global solid waste statistics
-- 🔹 `all_city_waste.csv` – Cleaned and processed dataset
-- 🔹 `World_cities_wastes.ipynb` – Python notebook for cleaning, analyzing, and documenting
+###  data/
+-  `city_level_data_0_0 (1).csv` – Original raw dataset of global solid waste statistics
+-  `all_city_waste.csv` – Cleaned and processed dataset
+-  `World_cities_wastes.ipynb` – Python notebook for cleaning, analyzing, and documenting
 
-### 📁 images/
-- 🔹 `Picture1.png` – Excel visualization of waste generation by city
+###  images/
+-  `Picture1.png` – Excel visualization of waste generation by city
 
-### 📄 README.md – Project overview and usage instructions
+###  README.md – Project overview and usage instructions
 
-## Where is the data from?
-The data is sourced from the World Bank Group. It includes city-level information on municipal solid waste (MSW), treatment methods, and environmental indicators.
-The dataset has been cleaned and reformatted for analysis, but no values were altered.
+## Data Provenance
+The dataset originates from the [World Bank Group](https://datacatalog.worldbank.org/search/dataset/0039596), specifically the *What a Waste* global database.  
+It includes city-level information on:
+- Annual MSW generation (tons/year),
+- Waste composition,
+- Treatment and disposal methods,
+- Environmental impacts.
+
+The data was downloaded, cleaned, and formatted for analysis. No values were modified beyond standard cleaning (e.g., fixing column names, removing null entries).
 
 ## Why this data?
 This dataset helps visualize which cities and countries are generating the most waste and which are doing the best job at diverting it from landfills.
